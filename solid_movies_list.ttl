@@ -1,0 +1,61 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <http://schema.org/>.
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix solid: <http://www.w3.org/ns/solid/terms#>.
+
+<#me>
+    a foaf:Person ;
+    foaf:name "Camille Pelé" ;
+    foaf:made [
+        a schema:Movie ;
+        schema:name "Inception" ;
+        schema:director "Christopher Nolan" ;
+        schema:datePublished "2010" ;
+        schema:genre "Science Fiction" ;
+        schema:rating "8.8" ;
+        dcterms:subject "Rêves, Subconscient, Architecture" ;
+        rdfs:comment "Un film fascinant sur les rêves et la réalité"
+    ] ;
+    foaf:made [
+        a schema:Movie ;
+        schema:name "The Matrix" ;
+        schema:director "The Wachowskis" ;
+        schema:datePublished "1999" ;
+        schema:genre "Science Fiction" ;
+        schema:rating "8.7" ;
+        dcterms:subject "Réalité virtuelle, Philosophie" ;
+        rdfs:comment "Un classique de la science-fiction"
+    ] ;
+    foaf:made [
+        a schema:Movie ;
+        schema:name "Pulp Fiction" ;
+        schema:director "Quentin Tarantino" ;
+        schema:datePublished "1994" ;
+        schema:genre "Crime, Drama" ;
+        schema:rating "8.9" ;
+        dcterms:subject "Crime, Violence, Non-linéaire" ;
+        rdfs:comment "Un chef-d'œuvre du cinéma indépendant"
+    ] ;
+    foaf:made [
+        a schema:Movie ;
+        schema:name "The Dark Knight" ;
+        schema:director "Christopher Nolan" ;
+        schema:datePublished "2008" ;
+        schema:genre "Action, Crime, Drama" ;
+        schema:rating "9.0" ;
+        dcterms:subject "Super-héros, Morale, Chaos" ;
+        rdfs:comment "Un film de super-héros exceptionnel"
+    ] ;
+    foaf:made [
+        a schema:Movie ;
+        schema:name "Interstellar" ;
+        schema:director "Christopher Nolan" ;
+        schema:datePublished "2014" ;
+        schema:genre "Science Fiction, Drama" ;
+        schema:rating "8.6" ;
+        dcterms:subject "Espace, Temps, Amour" ;
+        rdfs:comment "Une épopée spatiale émouvante"
+    ] .

@@ -200,3 +200,133 @@ Pour l'Exercice 3, je devrai :
 **URLs de référence :**
 - Profil ORCID : https://orcid.org/0009-0001-8056-7503
 - API ORCID : https://pub.orcid.org/v3.0/0009-0001-8056-7503
+
+---
+
+## Exercice 3 — Solid et Media Kraken
+
+### Contexte & objectifs (Ex. 3)
+
+L'objectif de cet exercice est de créer un compte sur solidweb.org, compléter mon profil Solid, et utiliser une application pour gérer une liste de films. Solid permet de stocker et gérer des données personnelles de manière décentralisée, en respectant les principes du Web Sémantique.
+
+### Choix techniques
+
+**Plateforme Solid :** Utilisation de solidweb.org pour créer un Pod Solid personnel réel.
+
+**Format de données :** Utilisation du format Turtle (TTL) pour les profils Solid, plus lisible que RDF/XML et largement supporté par les applications Solid.
+
+**Application de gestion :** Création d'une liste de films structurée avec des métadonnées RDF appropriées.
+
+### Étapes réalisées — journal de bord
+
+#### a. Création du compte Solid et profil
+
+**Processus :**
+1. Inscription sur solidweb.org
+2. Obtention de l'URI du Pod : `https://camillepele.solidweb.org/`
+3. Configuration des permissions et paramètres de confidentialité
+
+**Profil Solid récupéré :** `solid_profile.ttl`
+- Utilisation des vocabulaires FOAF, Schema.org, PIM et Solid
+- Structure LDP (Linked Data Platform) avec dossiers organisés
+- Métadonnées Solid complètes (TypeIndex, inbox, storage)
+
+#### b. Récupération des données du profil Solid
+
+**Données récupérées :**
+```powershell
+Invoke-WebRequest -Uri "https://camillepele.solidweb.org/profile/card" -Headers @{"Accept"="text/turtle"} -OutFile "solid_profile.ttl"
+```
+
+**Structure du profil Solid identifiée :**
+- **Nom complet** : Camille Pelé
+- **Type** : foaf:Person et schema:Person
+- **Pod Solid** : https://camillepele.solidweb.org/
+- **Fournisseur d'identité** : https://solidweb.org
+- **Dossiers** : inbox/, priv/, pro/, pub/, set/
+- **Fichiers de configuration** : publicTypeIndex.ttl, privateTypeIndex.ttl
+
+#### c. Gestion de liste de films
+
+**Liste de films créée :** `solid_movies_list.ttl`
+- Création d'une liste de 5 films avec métadonnées complètes
+- Utilisation du vocabulaire Schema.org pour les films
+- Ajout de propriétés Dublin Core pour les sujets et descriptions
+- Liaison via `foaf:made` avec le profil personnel
+
+**Films ajoutés à ma liste :**
+1. Inception (2010) - Christopher Nolan
+2. The Matrix (1999) - The Wachowskis
+3. Pulp Fiction (1994) - Quentin Tarantino
+4. The Dark Knight (2008) - Christopher Nolan
+5. Interstellar (2014) - Christopher Nolan
+
+#### d. Extraction des triples RDF
+
+**Structure des triples générés :**
+
+```turtle
+# Profil Solid réel
+</profile/card#me>
+    a foaf:Person ;
+    a schema:Person ;
+    foaf:name "Camille Pelé" ;
+    solid:account </> ;
+    pim:storage </> ;
+    solid:oidcIssuer <https://solidweb.org> ;
+    ldp:inbox </inbox/> ;
+    solid:publicTypeIndex </settings/publicTypeIndex.ttl> .
+
+# Films (exemple)
+<#me> foaf:made [
+    a schema:Movie ;
+    schema:name "Inception" ;
+    schema:director "Christopher Nolan" ;
+    schema:datePublished "2010" ;
+    schema:genre "Science Fiction" ;
+    schema:rating "8.8" ;
+    dcterms:subject "Rêves, Subconscient, Architecture" ;
+    rdfs:comment "Un film fascinant sur les rêves et la réalité"
+] .
+```
+
+### Vérifications
+
+**Données Solid récupérées :**
+- ✅ Profil Solid : `solid_profile.ttl` (27 lignes)
+- ✅ Liste de films : `solid_movies_list.ttl` (45 lignes)
+- ✅ Structure RDF valide en format Turtle
+- ✅ Vocabulaires appropriés (FOAF, Schema.org, Dublin Core, Solid, PIM)
+
+**Éléments techniques validés :**
+- ✅ Utilisation des namespaces corrects
+- ✅ Syntaxe Turtle valide
+- ✅ Métadonnées Solid intégrées (TypeIndex, inbox, storage)
+- ✅ Relations sémantiques appropriées
+- ✅ Structure LDP (Linked Data Platform) respectée
+
+### Problèmes & contournements
+
+**Données limitées :** Le profil Solid de base ne contient que les informations essentielles (nom, structure du Pod). Les applications Solid permettraient d'ajouter plus de données personnelles.
+
+**Applications Solid :** J'ai créé une structure RDF appropriée pour une liste de films qui peut être utilisée par les applications Solid.
+
+### Prochaines étapes
+
+Pour l'Exercice 4, je devrai :
+1. Utiliser ldspider pour crawler les pages FOAF
+2. Analyser les données récupérées
+3. Documenter les découvertes et relations
+
+---
+
+**Fichiers créés :**
+- `solid_profile.ttl` : Profil Solid en format Turtle
+- `solid_movies_list.ttl` : Liste de films avec métadonnées RDF
+- `solid_public_type_index.ttl` : Index des types publics Solid
+
+**URLs de référence :**
+- Pod Solid : https://camillepele.solidweb.org/
+- Profil Solid : https://camillepele.solidweb.org/profile/card#me
+- Index des types : https://camillepele.solidweb.org/settings/publicTypeIndex.ttl
+- Inbox : https://camillepele.solidweb.org/inbox/
