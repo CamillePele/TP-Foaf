@@ -1,0 +1,203 @@
+{
+    "orcid-identifier": {
+        "uri": "https://orcid.org/0009-0001-8056-7503",
+        "path": "0009-0001-8056-7503",
+        "host": "orcid.org"
+    },
+    "preferences": {
+        "locale": "en"
+    },
+    "history": {
+        "creation-method": "DIRECT",
+        "completion-date": null,
+        "submission-date": {
+            "value": 1758700034005
+        },
+        "last-modified-date": {
+            "value": 1758700034434
+        },
+        "claimed": true,
+        "source": null,
+        "deactivation-date": null,
+        "verified-email": false,
+        "verified-primary-email": false
+    },
+    "person": {
+        "last-modified-date": null,
+        "name": {
+            "created-date": {
+                "value": 1758700034150
+            },
+            "last-modified-date": {
+                "value": 1758700034150
+            },
+            "given-names": {
+                "value": "Camille"
+            },
+            "family-name": {
+                "value": "Pelé"
+            },
+            "credit-name": null,
+            "source": null,
+            "visibility": "public",
+            "path": "0009-0001-8056-7503"
+        },
+        "other-names": {
+            "last-modified-date": null,
+            "other-name": [],
+            "path": "/0009-0001-8056-7503/other-names"
+        },
+        "biography": null,
+        "researcher-urls": {
+            "last-modified-date": null,
+            "researcher-url": [],
+            "path": "/0009-0001-8056-7503/researcher-urls"
+        },
+        "emails": {
+            "last-modified-date": null,
+            "email": [],
+            "path": "/0009-0001-8056-7503/email"
+        },
+        "addresses": {
+            "last-modified-date": null,
+            "address": [],
+            "path": "/0009-0001-8056-7503/address"
+        },
+        "keywords": {
+            "last-modified-date": null,
+            "keyword": [],
+            "path": "/0009-0001-8056-7503/keywords"
+        },
+        "external-identifiers": {
+            "last-modified-date": null,
+            "external-identifier": [],
+            "path": "/0009-0001-8056-7503/external-identifiers"
+        },
+        "path": "/0009-0001-8056-7503/person"
+    },
+    "activities-summary": {
+        "last-modified-date": {
+            "value": 1758700034427
+        },
+        "distinctions": {
+            "last-modified-date": null,
+            "affiliation-group": [],
+            "path": "/0009-0001-8056-7503/distinctions"
+        },
+        "educations": {
+            "last-modified-date": null,
+            "affiliation-group": [],
+            "path": "/0009-0001-8056-7503/educations"
+        },
+        "employments": {
+            "last-modified-date": {
+                "value": 1758700034427
+            },
+            "affiliation-group": [{
+                "last-modified-date": {
+                    "value": 1758700034427
+                },
+                "external-ids": {
+                    "external-id": []
+                },
+                "summaries": [{
+                    "employment-summary": {
+                        "created-date": {
+                            "value": 1758700034427
+                        },
+                        "last-modified-date": {
+                            "value": 1758700034427
+                        },
+                        "source": {
+                            "source-orcid": {
+                                "uri": "https://orcid.org/0009-0001-8056-7503",
+                                "path": "0009-0001-8056-7503",
+                                "host": "orcid.org"
+                            },
+                            "source-client-id": null,
+                            "source-name": {
+                                "value": "Camille Pelé"
+                            },
+                            "assertion-origin-orcid": null,
+                            "assertion-origin-client-id": null,
+                            "assertion-origin-name": null
+                        },
+                        "put-code": 31776584,
+                        "department-name": "Master Informatique",
+                        "role-title": null,
+                        "start-date": {
+                            "year": {
+                                "value": "2024"
+                            },
+                            "month": {
+                                "value": "09"
+                            },
+                            "day": null
+                        },
+                        "end-date": null,
+                        "organization": {
+                            "name": "Université de La Rochelle",
+                            "address": {
+                                "city": "La Rochelle",
+                                "region": "Nouvelle-Aquitaine",
+                                "country": "FR"
+                            },
+                            "disambiguated-organization": {
+                                "disambiguated-organization-identifier": "https://ror.org/04mv1z119",
+                                "disambiguation-source": "ROR"
+                            }
+                        },
+                        "url": null,
+                        "external-ids": null,
+                        "display-index": "0",
+                        "visibility": "public",
+                        "path": "/0009-0001-8056-7503/employment/31776584"
+                    }
+                }]
+            }],
+            "path": "/0009-0001-8056-7503/employments"
+        },
+        "fundings": {
+            "last-modified-date": null,
+            "group": [],
+            "path": "/0009-0001-8056-7503/fundings"
+        },
+        "invited-positions": {
+            "last-modified-date": null,
+            "affiliation-group": [],
+            "path": "/0009-0001-8056-7503/invited-positions"
+        },
+        "memberships": {
+            "last-modified-date": null,
+            "affiliation-group": [],
+            "path": "/0009-0001-8056-7503/memberships"
+        },
+        "peer-reviews": {
+            "last-modified-date": null,
+            "group": [],
+            "path": "/0009-0001-8056-7503/peer-reviews"
+        },
+        "qualifications": {
+            "last-modified-date": null,
+            "affiliation-group": [],
+            "path": "/0009-0001-8056-7503/qualifications"
+        },
+        "research-resources": {
+            "last-modified-date": null,
+            "group": [],
+            "path": "/0009-0001-8056-7503/research-resources"
+        },
+        "services": {
+            "last-modified-date": null,
+            "affiliation-group": [],
+            "path": "/0009-0001-8056-7503/services"
+        },
+        "works": {
+            "last-modified-date": null,
+            "group": [],
+            "path": "/0009-0001-8056-7503/works"
+        },
+        "path": "/0009-0001-8056-7503/activities"
+    },
+    "path": "/0009-0001-8056-7503"
+}

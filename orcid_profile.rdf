@@ -1,0 +1,40 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:prov="http://www.w3.org/ns/prov#"
+    xmlns:pav="http://purl.org/pav/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:gn="http://www.geonames.org/ontology#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <foaf:PersonalProfileDocument rdf:about="https://pub.orcid.org/orcid-pub-web/experimental_rdf_v1/0009-0001-8056-7503">
+    <pav:createdOn rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2025-09-24T07:47:14.005Z</pav:createdOn>
+    <prov:generatedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2025-09-24T07:47:14.434Z</prov:generatedAtTime>
+    <pav:lastUpdateOn rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2025-09-24T07:47:14.434Z</pav:lastUpdateOn>
+    <pav:createdWith rdf:resource="https://orcid.org"/>
+    <prov:wasAttributedTo>
+      <prov:Person rdf:about="https://orcid.org/0009-0001-8056-7503">
+        <foaf:account>
+          <foaf:OnlineAccount rdf:about="https://orcid.org/0009-0001-8056-7503#orcid-id">
+            <rdfs:label>0009-0001-8056-7503</rdfs:label>
+            <foaf:accountName>0009-0001-8056-7503</foaf:accountName>
+            <foaf:accountServiceHomepage rdf:resource="https://orcid.org"/>
+          </foaf:OnlineAccount>
+        </foaf:account>
+        <foaf:publications>
+          <foaf:Document rdf:about="https://orcid.org/0009-0001-8056-7503#workspace-works"/>
+        </foaf:publications>
+        <foaf:familyName>Pelé</foaf:familyName>
+        <foaf:givenName>Camille</foaf:givenName>
+        <rdfs:label>Camille Pelé</rdfs:label>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+      </prov:Person>
+    </prov:wasAttributedTo>
+    <pav:createdBy rdf:resource="https://orcid.org/0009-0001-8056-7503"/>
+    <foaf:maker rdf:resource="https://orcid.org/0009-0001-8056-7503"/>
+    <foaf:primaryTopic rdf:resource="https://orcid.org/0009-0001-8056-7503"/>
+  </foaf:PersonalProfileDocument>
+</rdf:RDF>

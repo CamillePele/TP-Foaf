@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xml:base="https://camillepele.github.io/TP-Foaf/">
+  
+  <foaf:PersonalProfileDocument rdf:about="">
+    <foaf:maker rdf:resource="#me"/>
+    <foaf:primaryTopic rdf:resource="#me"/>
+  </foaf:PersonalProfileDocument>
+
+  <foaf:Person rdf:about="#me">
+    <foaf:name>Camille Pelé</foaf:name>
+    <foaf:givenName>Camille</foaf:givenName>
+    <foaf:familyName>Pelé</foaf:familyName>
+    <foaf:mbox rdf:resource="mailto:camille.pele@etudiant.univ-lr.fr"/>
+    <foaf:homepage rdf:resource="https://github.com/CamillePele"/>
+    <foaf:img rdf:resource="https://avatars.githubusercontent.com/u/52352789"/>
+    
+    <!-- GitHub Account -->
+    <foaf:account>
+      <foaf:OnlineAccount>
+        <foaf:accountServiceHomepage rdf:resource="https://github.com/"/>
+        <foaf:accountName>CamillePele</foaf:accountName>
+      </foaf:OnlineAccount>
+    </foaf:account>
+    
+    <!-- LinkedIn Account -->
+    <foaf:account>
+      <foaf:OnlineAccount>
+        <foaf:accountServiceHomepage rdf:resource="https://www.linkedin.com/"/>
+        <foaf:accountName>camille-pelé-818822214</foaf:accountName>
+      </foaf:OnlineAccount>
+    </foaf:account>
+    
+    <!-- ORCID Account -->
+    <foaf:account>
+      <foaf:OnlineAccount>
+        <foaf:accountServiceHomepage rdf:resource="https://orcid.org/"/>
+        <foaf:accountName>0009-0001-8056-7503</foaf:accountName>
+      </foaf:OnlineAccount>
+    </foaf:account>
+    
+    <!-- TODO: Ajouter des contacts foaf:knows plus tard -->
+  </foaf:Person>
+</rdf:RDF>

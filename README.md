@@ -97,3 +97,106 @@ Pour l'Exercice 2, je devrai :
 **URLs de référence :**
 - Homepage : https://camillepele.github.io/TP-Foaf/
 - Profil FOAF : https://camillepele.github.io/TP-Foaf/foaf.rdf
+
+---
+
+## Exercice 2 — ORCID et curl
+
+### Contexte & objectifs (Ex. 2)
+
+L'objectif de cet exercice est d'utiliser `curl` pour récupérer les données de mon profil ORCID et d'analyser les éléments FOAF présents dans la réponse. ORCID fournit des données structurées en RDF/XML qui peuvent être intégrées dans un profil FOAF.
+
+### Choix techniques
+
+**Commande curl :** J'ai utilisé `Invoke-WebRequest` (équivalent PowerShell de curl) avec l'en-tête `Accept: application/rdf+xml` pour récupérer les données ORCID au format RDF.
+
+**Formats récupérés :** 
+- RDF/XML : `https://orcid.org/0009-0001-8056-7503` (format FOAF)
+- JSON : `https://pub.orcid.org/v3.0/0009-0001-8056-7503` (API complète)
+
+### Étapes réalisées — journal de bord
+
+#### a. Récupération des données ORCID
+```powershell
+# Récupération en RDF/XML
+Invoke-WebRequest -Uri "https://orcid.org/0009-0001-8056-7503" -Headers @{"Accept"="application/rdf+xml"} -OutFile "orcid_profile.rdf"
+
+# Récupération en JSON (API complète)
+Invoke-WebRequest -Uri "https://pub.orcid.org/v3.0/0009-0001-8056-7503" -Headers @{"Accept"="application/json"} -OutFile "orcid_profile.json"
+```
+
+#### b. Analyse des éléments FOAF dans la réponse RDF
+
+**Structure FOAF identifiée :**
+
+1. **foaf:PersonalProfileDocument** (ligne 10)
+   - URI : `https://pub.orcid.org/orcid-pub-web/experimental_rdf_v1/0009-0001-8056-7503`
+   - `foaf:maker` et `foaf:primaryTopic` pointent vers l'URI ORCID
+
+2. **foaf:Person** (lignes 19-34)
+   - URI : `https://orcid.org/0009-0001-8056-7503`
+   - `foaf:familyName` : "Pelé"
+   - `foaf:givenName` : "Camille"
+   - `rdfs:label` : "Camille Pelé"
+   - `rdf:type` : `http://xmlns.com/foaf/0.1/Person`
+
+3. **foaf:OnlineAccount** (lignes 21-26)
+   - `foaf:accountName` : "0009-0001-8056-7503"
+   - `foaf:accountServiceHomepage` : "https://orcid.org"
+
+4. **foaf:publications** (lignes 27-29)
+   - Référence vers un workspace de publications
+
+#### c. Données supplémentaires du JSON
+
+**Informations personnelles :**
+- Nom : "Camille Pelé" (given-names: "Camille", family-name: "Pelé")
+- Profil créé le : 24 septembre 2025
+- Email vérifié : false
+- Profil revendiqué : true
+
+**Affiliation actuelle :**
+- Organisation : "Université de La Rochelle"
+- Département : "Master Informatique"
+- Début : septembre 2024
+- Ville : "La Rochelle", Région : "Nouvelle-Aquitaine", Pays : "FR"
+- Identifiant ROR : "https://ror.org/04mv1z119"
+
+### Vérifications
+
+**Données récupérées avec succès :**
+- ✅ Fichier RDF/XML : `orcid_profile.rdf` (40 lignes)
+- ✅ Fichier JSON : `orcid_profile.json` (203 lignes)
+- ✅ Structure FOAF valide dans le RDF
+- ✅ Données personnelles cohérentes avec mon profil
+
+**Éléments FOAF identifiés :**
+- ✅ foaf:PersonalProfileDocument
+- ✅ foaf:Person avec nom complet
+- ✅ foaf:OnlineAccount pour ORCID
+- ✅ foaf:publications (workspace)
+- ✅ Métadonnées de provenance (pav:, prov:)
+
+### Problèmes & contournements
+
+**Aucun problème majeur.** La récupération s'est faite sans erreur. Les données ORCID sont bien structurées et compatibles FOAF.
+
+**Note :** Le profil ORCID est récent (créé en septembre 2025) et ne contient pas encore de publications ou d'autres activités académiques.
+
+### Prochaines étapes
+
+Pour l'Exercice 3, je devrai :
+1. Créer un compte sur solidweb.org
+2. Compléter mon profil Solid
+3. Utiliser une application pour gérer une liste de films
+4. Inclure les données sous forme de triples dans le rapport
+
+---
+
+**Fichiers créés :**
+- `orcid_profile.rdf` : Données ORCID en RDF/XML
+- `orcid_profile.json` : Données ORCID en JSON (API complète)
+
+**URLs de référence :**
+- Profil ORCID : https://orcid.org/0009-0001-8056-7503
+- API ORCID : https://pub.orcid.org/v3.0/0009-0001-8056-7503
