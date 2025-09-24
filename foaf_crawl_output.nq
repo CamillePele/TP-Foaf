@@ -1,0 +1,83 @@
+<https://camillepele.github.io/TP-Foaf/foaf.rdf> <http://code.google.com/p/ldspider/ns#headerInfo> _:header9922664731758701359035 <https://camillepele.github.io/TP-Foaf/foaf.rdf> .
+_:header9922664731758701359035 <http://www.w3.org/2006/http#responseCode> "200"^^<http://www.w3.org/2001/XMLSchema#integer> <https://camillepele.github.io/TP-Foaf/foaf.rdf> .
+_:header9922664731758701359035 <http://www.w3.org/2006/http#connection> "keep-alive" <https://camillepele.github.io/TP-Foaf/foaf.rdf> .
+_:header9922664731758701359035 <http://www.w3.org/2006/http#content-length> "587" <https://camillepele.github.io/TP-Foaf/foaf.rdf> .
+_:header9922664731758701359035 <http://www.w3.org/2006/http#server> "GitHub.com" <https://camillepele.github.io/TP-Foaf/foaf.rdf> .
+_:header9922664731758701359035 <http://www.w3.org/2006/http#content-type> "application/rdf+xml" <https://camillepele.github.io/TP-Foaf/foaf.rdf> .
+_:header9922664731758701359035 <http://www.w3.org/2006/http#last-modified> "Wed, 24 Sep 2025 08:07:08 GMT" <https://camillepele.github.io/TP-Foaf/foaf.rdf> .
+_:header9922664731758701359035 <http://www.w3.org/2006/http#etag> "W/\"68d3a6ac-69f\"" <https://camillepele.github.io/TP-Foaf/foaf.rdf> .
+_:header9922664731758701359035 <http://www.w3.org/2006/http#cache-control> "max-age=600" <https://camillepele.github.io/TP-Foaf/foaf.rdf> .
+_:header9922664731758701359035 <http://www.w3.org/2006/http#content-encoding> "gzip" <https://camillepele.github.io/TP-Foaf/foaf.rdf> .
+_:header9922664731758701359035 <http://www.w3.org/2006/http#date> "Wed, 24 Sep 2025 08:09:18 GMT" <https://camillepele.github.io/TP-Foaf/foaf.rdf> .
+<https://camillepele.github.io/TP-Foaf/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/PersonalProfileDocument> <https://camillepele.github.io/TP-Foaf/foaf.rdf> .
+<https://camillepele.github.io/TP-Foaf/> <http://xmlns.com/foaf/0.1/maker> <https://camillepele.github.io/TP-Foaf/#me> <https://camillepele.github.io/TP-Foaf/foaf.rdf> .
+<https://camillepele.github.io/TP-Foaf/> <http://xmlns.com/foaf/0.1/primaryTopic> <https://camillepele.github.io/TP-Foaf/#me> <https://camillepele.github.io/TP-Foaf/foaf.rdf> .
+<https://camillepele.github.io/TP-Foaf/#me> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> <https://camillepele.github.io/TP-Foaf/foaf.rdf> .
+<https://camillepele.github.io/TP-Foaf/#me> <http://xmlns.com/foaf/0.1/name> "Camille Pel\u00E9" <https://camillepele.github.io/TP-Foaf/foaf.rdf> .
+<https://camillepele.github.io/TP-Foaf/#me> <http://xmlns.com/foaf/0.1/givenName> "Camille" <https://camillepele.github.io/TP-Foaf/foaf.rdf> .
+<https://camillepele.github.io/TP-Foaf/#me> <http://xmlns.com/foaf/0.1/familyName> "Pel\u00E9" <https://camillepele.github.io/TP-Foaf/foaf.rdf> .
+<https://camillepele.github.io/TP-Foaf/#me> <http://xmlns.com/foaf/0.1/mbox> <mailto:camille.pele@etudiant.univ-lr.fr> <https://camillepele.github.io/TP-Foaf/foaf.rdf> .
+<https://camillepele.github.io/TP-Foaf/#me> <http://xmlns.com/foaf/0.1/homepage> <https://github.com/CamillePele> <https://camillepele.github.io/TP-Foaf/foaf.rdf> .
+<https://camillepele.github.io/TP-Foaf/#me> <http://xmlns.com/foaf/0.1/img> <https://avatars.githubusercontent.com/u/52352789> <https://camillepele.github.io/TP-Foaf/foaf.rdf> .
+_:httpsx3Ax2Fx2Fcamillepelex2Egithubx2Eiox2FTPx2DFoafx2Ffoafx2Erdfxxbnode0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/OnlineAccount> <https://camillepele.github.io/TP-Foaf/foaf.rdf> .
+<https://camillepele.github.io/TP-Foaf/#me> <http://xmlns.com/foaf/0.1/account> _:httpsx3Ax2Fx2Fcamillepelex2Egithubx2Eiox2FTPx2DFoafx2Ffoafx2Erdfxxbnode0 <https://camillepele.github.io/TP-Foaf/foaf.rdf> .
+_:httpsx3Ax2Fx2Fcamillepelex2Egithubx2Eiox2FTPx2DFoafx2Ffoafx2Erdfxxbnode0 <http://xmlns.com/foaf/0.1/accountServiceHomepage> <https://github.com/> <https://camillepele.github.io/TP-Foaf/foaf.rdf> .
+_:httpsx3Ax2Fx2Fcamillepelex2Egithubx2Eiox2FTPx2DFoafx2Ffoafx2Erdfxxbnode0 <http://xmlns.com/foaf/0.1/accountName> "CamillePele" <https://camillepele.github.io/TP-Foaf/foaf.rdf> .
+_:httpsx3Ax2Fx2Fcamillepelex2Egithubx2Eiox2FTPx2DFoafx2Ffoafx2Erdfxxbnode1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/OnlineAccount> <https://camillepele.github.io/TP-Foaf/foaf.rdf> .
+<https://camillepele.github.io/TP-Foaf/#me> <http://xmlns.com/foaf/0.1/account> _:httpsx3Ax2Fx2Fcamillepelex2Egithubx2Eiox2FTPx2DFoafx2Ffoafx2Erdfxxbnode1 <https://camillepele.github.io/TP-Foaf/foaf.rdf> .
+_:httpsx3Ax2Fx2Fcamillepelex2Egithubx2Eiox2FTPx2DFoafx2Ffoafx2Erdfxxbnode1 <http://xmlns.com/foaf/0.1/accountServiceHomepage> <https://www.linkedin.com/> <https://camillepele.github.io/TP-Foaf/foaf.rdf> .
+_:httpsx3Ax2Fx2Fcamillepelex2Egithubx2Eiox2FTPx2DFoafx2Ffoafx2Erdfxxbnode1 <http://xmlns.com/foaf/0.1/accountName> "camille-pel\u00E9-818822214" <https://camillepele.github.io/TP-Foaf/foaf.rdf> .
+_:httpsx3Ax2Fx2Fcamillepelex2Egithubx2Eiox2FTPx2DFoafx2Ffoafx2Erdfxxbnode2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/OnlineAccount> <https://camillepele.github.io/TP-Foaf/foaf.rdf> .
+<https://camillepele.github.io/TP-Foaf/#me> <http://xmlns.com/foaf/0.1/account> _:httpsx3Ax2Fx2Fcamillepelex2Egithubx2Eiox2FTPx2DFoafx2Ffoafx2Erdfxxbnode2 <https://camillepele.github.io/TP-Foaf/foaf.rdf> .
+_:httpsx3Ax2Fx2Fcamillepelex2Egithubx2Eiox2FTPx2DFoafx2Ffoafx2Erdfxxbnode2 <http://xmlns.com/foaf/0.1/accountServiceHomepage> <https://orcid.org/> <https://camillepele.github.io/TP-Foaf/foaf.rdf> .
+_:httpsx3Ax2Fx2Fcamillepelex2Egithubx2Eiox2FTPx2DFoafx2Ffoafx2Erdfxxbnode2 <http://xmlns.com/foaf/0.1/accountName> "0009-0001-8056-7503" <https://camillepele.github.io/TP-Foaf/foaf.rdf> .
+<http://sixhills-consulting.com/foaf/agueritz/foaf.rdf> <http://code.google.com/p/ldspider/ns#headerInfo> _:header12010999231758701359324 <http://sixhills-consulting.com/foaf/agueritz/foaf.rdf> .
+_:header12010999231758701359324 <http://www.w3.org/2006/http#responseCode> "200"^^<http://www.w3.org/2001/XMLSchema#integer> <http://sixhills-consulting.com/foaf/agueritz/foaf.rdf> .
+_:header12010999231758701359324 <http://www.w3.org/2006/http#server> "openresty/1.27.1.2" <http://sixhills-consulting.com/foaf/agueritz/foaf.rdf> .
+_:header12010999231758701359324 <http://www.w3.org/2006/http#date> "Wed, 24 Sep 2025 08:09:19 GMT" <http://sixhills-consulting.com/foaf/agueritz/foaf.rdf> .
+_:header12010999231758701359324 <http://www.w3.org/2006/http#content-type> "application/rdf+xml" <http://sixhills-consulting.com/foaf/agueritz/foaf.rdf> .
+_:header12010999231758701359324 <http://www.w3.org/2006/http#content-length> "2317" <http://sixhills-consulting.com/foaf/agueritz/foaf.rdf> .
+_:header12010999231758701359324 <http://www.w3.org/2006/http#connection> "keep-alive" <http://sixhills-consulting.com/foaf/agueritz/foaf.rdf> .
+_:header12010999231758701359324 <http://www.w3.org/2006/http#last-modified> "Thu, 11 Sep 2014 20:34:54 GMT" <http://sixhills-consulting.com/foaf/agueritz/foaf.rdf> .
+_:header12010999231758701359324 <http://www.w3.org/2006/http#etag> "\"90d-502d019de3780\"" <http://sixhills-consulting.com/foaf/agueritz/foaf.rdf> .
+<http://sixhills-consulting.com/foaf/agueritz/foaf.rdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/PersonalProfileDocument> <http://sixhills-consulting.com/foaf/agueritz/foaf.rdf> .
+<http://sixhills-consulting.com/foaf/agueritz/foaf.rdf> <http://xmlns.com/foaf/0.1/maker> <http://sixhills-consulting.com/foaf/agueritz/foaf.rdf#me> <http://sixhills-consulting.com/foaf/agueritz/foaf.rdf> .
+<http://sixhills-consulting.com/foaf/agueritz/foaf.rdf> <http://xmlns.com/foaf/0.1/primaryTopic> <http://sixhills-consulting.com/foaf/agueritz/foaf.rdf#me> <http://sixhills-consulting.com/foaf/agueritz/foaf.rdf> .
+<http://sixhills-consulting.com/foaf/agueritz/foaf.rdf> <http://webns.net/mvcb/generatorAgent> <http://www.ldodds.com/foaf/foaf-a-matic> <http://sixhills-consulting.com/foaf/agueritz/foaf.rdf> .
+<http://sixhills-consulting.com/foaf/agueritz/foaf.rdf> <http://webns.net/mvcb/errorReportsTo> <mailto:info@sixhills-consulting.com> <http://sixhills-consulting.com/foaf/agueritz/foaf.rdf> .
+<http://sixhills-consulting.com/foaf/agueritz/foaf.rdf#me> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> <http://sixhills-consulting.com/foaf/agueritz/foaf.rdf> .
+<http://sixhills-consulting.com/foaf/agueritz/foaf.rdf#me> <http://xmlns.com/foaf/0.1/name> "Andy Gueritz" <http://sixhills-consulting.com/foaf/agueritz/foaf.rdf> .
+<http://sixhills-consulting.com/foaf/agueritz/foaf.rdf#me> <http://xmlns.com/foaf/0.1/title> "Mr" <http://sixhills-consulting.com/foaf/agueritz/foaf.rdf> .
+<http://sixhills-consulting.com/foaf/agueritz/foaf.rdf#me> <http://xmlns.com/foaf/0.1/givenname> "Andy" <http://sixhills-consulting.com/foaf/agueritz/foaf.rdf> .
+<http://sixhills-consulting.com/foaf/agueritz/foaf.rdf#me> <http://xmlns.com/foaf/0.1/family_name> "Gueritz" <http://sixhills-consulting.com/foaf/agueritz/foaf.rdf> .
+<http://sixhills-consulting.com/foaf/agueritz/foaf.rdf#me> <http://xmlns.com/foaf/0.1/mbox_sha1sum> "a27dfb3c816fdd222d9e69eae05f01189142837c" <http://sixhills-consulting.com/foaf/agueritz/foaf.rdf> .
+<http://sixhills-consulting.com/foaf/agueritz/foaf.rdf#me> <http://xmlns.com/foaf/0.1/mbox_sha1sum> "aafb3ccabc57564efde9d52b5dadedec4fac902a" <http://sixhills-consulting.com/foaf/agueritz/foaf.rdf> .
+<http://sixhills-consulting.com/foaf/agueritz/foaf.rdf#me> <http://xmlns.com/foaf/0.1/mbox_sha1sum> "9e49f0927456b2abd2f4a2fcc0b8d0db06b18877" <http://sixhills-consulting.com/foaf/agueritz/foaf.rdf> .
+<http://sixhills-consulting.com/foaf/agueritz/foaf.rdf#me> <http://xmlns.com/foaf/0.1/homepage> <http://www.sixhills-consulting.com> <http://sixhills-consulting.com/foaf/agueritz/foaf.rdf> .
+<http://www.sixhills-consulting.com> <http://dublincore.org/xmlns/2008/09/01/dc-ds-xml/title> "Sixhills Website" <http://sixhills-consulting.com/foaf/agueritz/foaf.rdf> .
+<http://sixhills-consulting.com/foaf/agueritz/foaf.rdf#me> <http://xmlns.com/foaf/0.1/weblog> <http://www.sixhills-consulting.com/blog> <http://sixhills-consulting.com/foaf/agueritz/foaf.rdf> .
+<http://www.sixhills-consulting.com/blog> <http://dublincore.org/xmlns/2008/09/01/dc-ds-xml/title> "6log - How does that work then?" <http://sixhills-consulting.com/foaf/agueritz/foaf.rdf> .
+_:httpx3Ax2Fx2Fsix78hillsx2Dconsultingx2Ecomx2Ffoafx2Fagueritzx2Ffoafx2Erdfxxbnode0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> <http://sixhills-consulting.com/foaf/agueritz/foaf.rdf> .
+<http://sixhills-consulting.com/foaf/agueritz/foaf.rdf#me> <http://xmlns.com/foaf/0.1/knows> _:httpx3Ax2Fx2Fsix78hillsx2Dconsultingx2Ecomx2Ffoafx2Fagueritzx2Ffoafx2Erdfxxbnode0 <http://sixhills-consulting.com/foaf/agueritz/foaf.rdf> .
+_:httpx3Ax2Fx2Fsix78hillsx2Dconsultingx2Ecomx2Ffoafx2Fagueritzx2Ffoafx2Erdfxxbnode0 <http://xmlns.com/foaf/0.1/name> "Tom Ilube" <http://sixhills-consulting.com/foaf/agueritz/foaf.rdf> .
+_:httpx3Ax2Fx2Fsix78hillsx2Dconsultingx2Ecomx2Ffoafx2Fagueritzx2Ffoafx2Erdfxxbnode0 <http://xmlns.com/foaf/0.1/mbox_sha1sum> "a8084b745be5ca1d33f89025be2587f8f92d6d52" <http://sixhills-consulting.com/foaf/agueritz/foaf.rdf> .
+_:httpx3Ax2Fx2Fsix78hillsx2Dconsultingx2Ecomx2Ffoafx2Fagueritzx2Ffoafx2Erdfxxbnode1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> <http://sixhills-consulting.com/foaf/agueritz/foaf.rdf> .
+<http://sixhills-consulting.com/foaf/agueritz/foaf.rdf#me> <http://xmlns.com/foaf/0.1/knows> _:httpx3Ax2Fx2Fsix78hillsx2Dconsultingx2Ecomx2Ffoafx2Fagueritzx2Ffoafx2Erdfxxbnode1 <http://sixhills-consulting.com/foaf/agueritz/foaf.rdf> .
+_:httpx3Ax2Fx2Fsix78hillsx2Dconsultingx2Ecomx2Ffoafx2Fagueritzx2Ffoafx2Erdfxxbnode1 <http://xmlns.com/foaf/0.1/name> "Nigel Shadbolt" <http://sixhills-consulting.com/foaf/agueritz/foaf.rdf> .
+_:httpx3Ax2Fx2Fsix78hillsx2Dconsultingx2Ecomx2Ffoafx2Fagueritzx2Ffoafx2Erdfxxbnode1 <http://xmlns.com/foaf/0.1/mbox_sha1sum> "2ebb530ea567a0c57314db4ec2027f0ea9f6cfbb" <http://sixhills-consulting.com/foaf/agueritz/foaf.rdf> .
+_:httpx3Ax2Fx2Fsix78hillsx2Dconsultingx2Ecomx2Ffoafx2Fagueritzx2Ffoafx2Erdfxxbnode2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> <http://sixhills-consulting.com/foaf/agueritz/foaf.rdf> .
+<http://sixhills-consulting.com/foaf/agueritz/foaf.rdf#me> <http://xmlns.com/foaf/0.1/knows> _:httpx3Ax2Fx2Fsix78hillsx2Dconsultingx2Ecomx2Ffoafx2Fagueritzx2Ffoafx2Erdfxxbnode2 <http://sixhills-consulting.com/foaf/agueritz/foaf.rdf> .
+_:httpx3Ax2Fx2Fsix78hillsx2Dconsultingx2Ecomx2Ffoafx2Fagueritzx2Ffoafx2Erdfxxbnode2 <http://xmlns.com/foaf/0.1/name> "Steve Harris" <http://sixhills-consulting.com/foaf/agueritz/foaf.rdf> .
+_:httpx3Ax2Fx2Fsix78hillsx2Dconsultingx2Ecomx2Ffoafx2Fagueritzx2Ffoafx2Erdfxxbnode2 <http://xmlns.com/foaf/0.1/mbox_sha1sum> "26a374ad4de937252c044f7dd45aa48ecbdb4f16" <http://sixhills-consulting.com/foaf/agueritz/foaf.rdf> .
+_:httpx3Ax2Fx2Fsix78hillsx2Dconsultingx2Ecomx2Ffoafx2Fagueritzx2Ffoafx2Erdfxxbnode3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> <http://sixhills-consulting.com/foaf/agueritz/foaf.rdf> .
+<http://sixhills-consulting.com/foaf/agueritz/foaf.rdf#me> <http://xmlns.com/foaf/0.1/knows> _:httpx3Ax2Fx2Fsix78hillsx2Dconsultingx2Ecomx2Ffoafx2Fagueritzx2Ffoafx2Erdfxxbnode3 <http://sixhills-consulting.com/foaf/agueritz/foaf.rdf> .
+_:httpx3Ax2Fx2Fsix78hillsx2Dconsultingx2Ecomx2Ffoafx2Fagueritzx2Ffoafx2Erdfxxbnode3 <http://xmlns.com/foaf/0.1/name> "Mike Harris" <http://sixhills-consulting.com/foaf/agueritz/foaf.rdf> .
+_:httpx3Ax2Fx2Fsix78hillsx2Dconsultingx2Ecomx2Ffoafx2Fagueritzx2Ffoafx2Erdfxxbnode3 <http://xmlns.com/foaf/0.1/mbox_sha1sum> "dddbc219d8b6e5cef9855f2af7ae8a0904d0c695" <http://sixhills-consulting.com/foaf/agueritz/foaf.rdf> .
+_:httpx3Ax2Fx2Fsix78hillsx2Dconsultingx2Ecomx2Ffoafx2Fagueritzx2Ffoafx2Erdfxxbnode4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> <http://sixhills-consulting.com/foaf/agueritz/foaf.rdf> .
+<http://sixhills-consulting.com/foaf/agueritz/foaf.rdf#me> <http://xmlns.com/foaf/0.1/knows> _:httpx3Ax2Fx2Fsix78hillsx2Dconsultingx2Ecomx2Ffoafx2Fagueritzx2Ffoafx2Erdfxxbnode4 <http://sixhills-consulting.com/foaf/agueritz/foaf.rdf> .
+_:httpx3Ax2Fx2Fsix78hillsx2Dconsultingx2Ecomx2Ffoafx2Fagueritzx2Ffoafx2Erdfxxbnode4 <http://xmlns.com/foaf/0.1/name> "Christian Davis" <http://sixhills-consulting.com/foaf/agueritz/foaf.rdf> .
+_:httpx3Ax2Fx2Fsix78hillsx2Dconsultingx2Ecomx2Ffoafx2Fagueritzx2Ffoafx2Erdfxxbnode4 <http://xmlns.com/foaf/0.1/mbox_sha1sum> "25dbb6085638bbc9203039d934b684a8144b7cd1" <http://sixhills-consulting.com/foaf/agueritz/foaf.rdf> .
+_:httpx3Ax2Fx2Fsix78hillsx2Dconsultingx2Ecomx2Ffoafx2Fagueritzx2Ffoafx2Erdfxxbnode5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> <http://sixhills-consulting.com/foaf/agueritz/foaf.rdf> .
+<http://sixhills-consulting.com/foaf/agueritz/foaf.rdf#me> <http://xmlns.com/foaf/0.1/knows> _:httpx3Ax2Fx2Fsix78hillsx2Dconsultingx2Ecomx2Ffoafx2Fagueritzx2Ffoafx2Erdfxxbnode5 <http://sixhills-consulting.com/foaf/agueritz/foaf.rdf> .
+_:httpx3Ax2Fx2Fsix78hillsx2Dconsultingx2Ecomx2Ffoafx2Fagueritzx2Ffoafx2Erdfxxbnode5 <http://xmlns.com/foaf/0.1/name> "Cottie Petrie-Norris" <http://sixhills-consulting.com/foaf/agueritz/foaf.rdf> .
+_:httpx3Ax2Fx2Fsix78hillsx2Dconsultingx2Ecomx2Ffoafx2Fagueritzx2Ffoafx2Erdfxxbnode5 <http://xmlns.com/foaf/0.1/mbox_sha1sum> "2786be6f544ac5ff31341fc8d40ae4932a18979d" <http://sixhills-consulting.com/foaf/agueritz/foaf.rdf> .

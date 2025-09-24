@@ -1,0 +1,2 @@
+https://camillepele.github.io/TP-Foaf/foaf.rdf
+http://sixhills-consulting.com/foaf/agueritz/foaf.rdf

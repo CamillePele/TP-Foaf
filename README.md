@@ -330,3 +330,116 @@ Pour l'Exercice 4, je devrai :
 - Profil Solid : https://camillepele.solidweb.org/profile/card#me
 - Index des types : https://camillepele.solidweb.org/settings/publicTypeIndex.ttl
 - Inbox : https://camillepele.solidweb.org/inbox/
+
+---
+
+## Exercice 4 — ldspider et crawling FOAF
+
+### Contexte & objectifs (Ex. 4)
+
+L'objectif de cet exercice est d'utiliser ldspider pour crawler les pages FOAF et découvrir d'autres personnes dans le réseau FOAF. ldspider est un outil spécialisé pour le crawling du Web des données liées.
+
+### Choix techniques
+
+**Outil de crawling :** Utilisation de ldspider-1.3-with-dependencies.jar fourni par le professeur.
+
+**Stratégie de crawling :** Load-balanced crawling avec 2 threads et une limite de 50 URIs.
+
+**Formats acceptés :** application/rdf+xml, text/turtle, application/ld+json.
+
+### Étapes réalisées — journal de bord
+
+#### a. Configuration de ldspider
+
+**Fichier de seeds créé :** `seeds.txt`
+```
+https://camillepele.github.io/TP-Foaf/foaf.rdf
+http://sixhills-consulting.com/foaf/agueritz/foaf.rdf
+```
+
+**Commande exécutée :**
+```bash
+java -jar ldspider-1.3-with-dependencies.jar -s seeds.txt -c 50 -o foaf_crawl_output.nq -accept "application/rdf+xml,text/turtle,application/ld+json" -t 2 -polite 1000
+```
+
+#### b. Résultats du crawling
+
+**Statistiques :**
+- 2 profils FOAF crawlé avec succès
+- 84 triples N-Quads générés
+- Temps d'exécution : 52 secondes
+- 2 threads utilisés
+
+**Profils découverts :**
+
+1. **Camille Pelé** (mon profil)
+   - URI : `https://camillepele.github.io/TP-Foaf/#me`
+   - Nom : Camille Pelé
+   - Comptes : GitHub, LinkedIn, ORCID
+   - Email : camille.pele@etudiant.univ-lr.fr
+
+2. **Andy Gueritz** (profil externe)
+   - URI : `http://sixhills-consulting.com/foaf/agueritz/foaf.rdf#me`
+   - Nom : Andy Gueritz
+   - Titre : Mr
+   - Homepage : http://www.sixhills-consulting.com
+   - Weblog : http://www.sixhills-consulting.com/blog
+
+#### c. Relations découvertes (foaf:knows)
+
+Andy Gueritz connaît 6 personnes :
+- Tom Ilube
+- Nigel Shadbolt
+- Steve Harris
+- Mike Harris
+- Christian Davis
+- Cottie Petrie-Norris
+
+**Note :** Les emails sont protégés par des hash SHA1 pour la confidentialité.
+
+#### d. Analyse des métadonnées
+
+**Headers HTTP :**
+- Camille Pelé : GitHub.com, application/rdf+xml, 587 bytes
+- Andy Gueritz : openresty/1.27.1.2, application/rdf+xml, 2317 bytes
+
+**Vocabulaires utilisés :**
+- FOAF (Friend of a Friend)
+- Dublin Core
+- RDF Schema
+- HTTP vocabulary
+
+### Vérifications
+
+**Crawling réussi :**
+- ✅ 2 profils FOAF récupérés
+- ✅ 84 triples N-Quads générés
+- ✅ Relations foaf:knows découvertes
+- ✅ Métadonnées HTTP préservées
+
+**Données analysées :**
+- ✅ Structure RDF valide
+- ✅ Vocabulaires appropriés
+- ✅ Relations sémantiques identifiées
+- ✅ Métadonnées techniques extraites
+
+### Problèmes & contournements
+
+**Timeouts :** Certaines URLs (webns.net) ont généré des timeouts, mais cela n'a pas affecté les profils FOAF principaux.
+
+**Filtres de contenu :** ldspider a filtré automatiquement les contenus non-RDF (HTML, images) pour se concentrer sur les données structurées.
+
+### Prochaines étapes
+
+L'Exercice 4 est maintenant terminé. Le crawling a permis de découvrir un réseau FOAF avec des relations professionnelles intéressantes.
+
+---
+
+**Fichiers créés :**
+- `seeds.txt` : Liste des URLs de départ pour le crawling
+- `foaf_crawl_output.nq` : Données crawlé au format N-Quads (84 lignes)
+- `foaf_analysis.md` : Analyse détaillée des résultats
+
+**URLs de référence :**
+- Profil Camille : https://camillepele.github.io/TP-Foaf/foaf.rdf
+- Profil Andy Gueritz : http://sixhills-consulting.com/foaf/agueritz/foaf.rdf
